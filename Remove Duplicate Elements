@@ -1,0 +1,8 @@
+#WAP to remove duplicate elements from a list
+
+my_list = [1, 2, 3, 2, 4, 5, 1, 6, 4, 7]
+
+print("Original List :", my_list)
+
+unique_list = list(set(my_list))
+print("Without Duplicates :", unique_list)
