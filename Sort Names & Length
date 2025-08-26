@@ -1,0 +1,8 @@
+# Program to sort names according to their length
+
+names = ["Mustak", "Anamika", "Jit"]
+
+sorted_names = sorted(names, key=len)
+
+print("Original List of Names:", names)
+print("Sorted List of Names By Length:", sorted_names)
