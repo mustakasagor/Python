@@ -1,0 +1,15 @@
+numbers = (10, 20, 30, 40, 50, 60, 70)
+
+print("Tuple:", numbers)
+
+key = int(input("Enter element to search: "))
+
+found = False
+for i in range(len(numbers)):
+    if numbers[i] == key:
+        print(f"Element {key} found at index {i}")
+        found = True
+        break
+
+if not found:
+    print(f"Element {key} not found in tuple")
