@@ -1,0 +1,23 @@
+numbers = (10, 20, 5, 30, 20, 40, 10)
+
+print("Tuple:", numbers)
+
+print("Length of tuple:", len(numbers))
+
+print("Maximum element:", max(numbers))
+
+print("Minimum element:", min(numbers))
+
+print("Sum of elements:", sum(numbers))
+
+element = int(input("Enter an element to count: "))
+print(f"Count of {element}:", numbers.count(element))
+
+element = int(input("Enter an element to find index: "))
+
+if element in numbers:
+    print(f"Index of {element}:", numbers.index(element))
+else:
+    print(f"{element} not found in tuple")
+
+print("Sorted tuple:", tuple(sorted(numbers)))
