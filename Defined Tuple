@@ -1,0 +1,10 @@
+n = int(input("Enter The Number of Tuple: "))
+
+elements = []
+for i in range(n):
+    val = input(f"Enter element {i+1}: ")
+    elements.append(val)
+
+user_tuple = tuple(elements)
+
+print("The User Defined Tuple is:", user_tuple)
