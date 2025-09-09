@@ -1,0 +1,10 @@
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+
+unique_words = set(words)
+
+sorted_words = sorted(unique_words)
+
+print("Sorted unique words:", sorted_words)
