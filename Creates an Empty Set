@@ -1,0 +1,11 @@
+my_set = set()
+
+n = int(input("How many elements do you want to add in the set? "))
+
+for i in range(n):
+    value = input(f"Enter element {i+1}: ")
+    my_set.add(value)
+
+print("\nElements in the set are:")
+for item in my_set:
+    print(item)
