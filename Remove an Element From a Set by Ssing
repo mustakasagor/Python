@@ -1,0 +1,18 @@
+my_set = {10, 20, 30, 40, 50}
+print("Original Set:", my_set)
+
+print("\nUsing remove():")
+my_set.remove(20)
+print("After removing 20:", my_set)
+
+print("\nUsing discard():")
+my_set.discard(30) 
+print("After discarding 30:", my_set)
+
+my_set.discard(100) 
+print("After discarding 100 (not present):", my_set)
+
+print("\nUsing pop():")
+removed = my_set.pop()
+print("Popped element:", removed)
+print("After pop():", my_set)
