@@ -1,0 +1,8 @@
+numbers = {15, 3, 9, 27, 6, 18}
+
+print("Original Set:", numbers)
+print("Length of set:", len(numbers))
+print("Minimum element:", min(numbers))
+print("Maximum element:", max(numbers))
+print("Sum of elements:", sum(numbers))
+print("Sorted elements:", sorted(numbers))
