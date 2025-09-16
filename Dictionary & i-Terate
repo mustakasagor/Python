@@ -1,0 +1,13 @@
+student = {"Name": "Rahul", "Age": 20, "Course": "Python"}
+
+print ("keys:")
+for key in student.keys():
+    print(key)
+
+print("\nValues:")
+for value in student.values():
+    print (value)
+    
+print("\nKey-Value Pairs: ")
+for key, value in student.items():
+    print(key, ":", value)
