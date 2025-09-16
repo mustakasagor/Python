@@ -1,0 +1,19 @@
+data = {"a": 10, "b": 20, "c": 30}
+print("\n Original Dictionary:", data)
+
+del data["a"]
+print("\n Del:", data)
+
+popped = data.pop("b")
+print("\n Popped value of 'b':", popped)
+print("\n After pop:", data)
+
+last_item = data.popitem()
+print("\n Last item popped:", last_item)
+print("\n After popitem:", data)
+
+data.update({"x": 100, "y": 200})
+print("\n After update:", data)
+
+data.clear()
+print("\n After clear:", data)
