@@ -1,0 +1,3 @@
+sum_func = lambda a, b: a + b
+
+print(sum_func(10, 20))
