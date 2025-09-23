@@ -1,0 +1,5 @@
+def sort_names(names_list):
+    return sorted(names_list)
+
+names = ["Mustak", "Ana", "Jit", "Beauty", "Monu"]
+print(sort_names(names))
