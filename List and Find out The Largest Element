@@ -1,0 +1,10 @@
+def find_largest(num_list):
+    if not num_list:
+        return None
+    largest = num_list[0]
+    for num in num_list:
+        if num > largest:
+            largest = num
+    return largest
+numbers = [10, 25, 3, 89, 45, 67]
+print("Largest element:", find_largest(numbers))
