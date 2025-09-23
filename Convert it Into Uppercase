@@ -1,0 +1,3 @@
+to_upper = lambda s: s.upper()
+
+print(to_upper("hello world"))
